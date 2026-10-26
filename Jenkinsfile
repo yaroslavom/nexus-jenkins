@@ -39,6 +39,11 @@ pipeline {
       <username>$NEXUS_CREDS_USR</username>
       <password>$NEXUS_CREDS_PSW</password>
     </server>
+    <server>
+      <id>nexus-public</id>
+      <username>$NEXUS_CREDS_USR</username>
+      <password>$NEXUS_CREDS_PSW</password>
+    </server>
   </servers>
   <mirrors>
     <mirror>
